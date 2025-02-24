@@ -1,6 +1,6 @@
-import {TokenMapping} from "./TokenMapping.ts";
+import {TokenMapping} from './TokenMapping.ts';
 
-export function sanitiseInputText(inputText: string) {
+export async function sanitiseInputText(inputText: string) {
     const newMappings: TokenMapping[] = []
     let processedText = inputText
 

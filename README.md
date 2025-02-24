@@ -61,3 +61,10 @@ const input = 'Contact john@example.com or call 555-123-4567'
 const result = sanitiseInputText(input)
 // Result: 'Contact [EMAIL_TOKEN_1] or call [PHONE_TOKEN_1]'
 ```
+
+## Next Steps
+
+- Add support for more sensitive data types
+- Consider utilising: https://github.com/microsoft/presidio
+- LiteLLM integration: https://microsoft.github.io/presidio/samples/docker/litellm/
+- nlp.js for Named Entity Recognition (NER)
